@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school_management_db.ResultshowController">
+   <children>
+      <ImageView fitHeight="599.0" fitWidth="617.0" opacity="0.14" pickOnBounds="true">
+         <image>
+            <Image url="@back3.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="labels1" layoutX="48.0" layoutY="95.0" text="Bengali 1st Paper : " visible="false" />
+      <Label fx:id="labelc1" layoutX="161.0" layoutY="95.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labels2" layoutX="48.0" layoutY="120.0" text="Bengali 2nd Paper : " visible="false" />
+      <Label fx:id="labels3" layoutX="48.0" layoutY="144.0" text="English 1st Paper : " visible="false" />
+      <Label fx:id="labels4" layoutX="48.0" layoutY="167.0" text="English 2nd Paper : " visible="false" />
+      <Label fx:id="labels5" layoutX="48.0" layoutY="192.0" text="General Math : " visible="false" />
+      <Label fx:id="labels6" layoutX="48.0" layoutY="216.0" text="Physics : " visible="false" />
+      <Label fx:id="labels7" layoutX="48.0" layoutY="239.0" text="Chemistry : " visible="false" />
+      <Label fx:id="labels8" layoutX="48.0" layoutY="262.0" text="Religious Education : " visible="false" />
+      <Label fx:id="labels9" layoutX="47.0" layoutY="283.0" text="Social Science : " visible="false" />
+      <Label fx:id="labels10" layoutX="46.0" layoutY="307.0" text="Higher Math : " visible="false" />
+      <Label fx:id="labels11" layoutX="46.0" layoutY="331.0" text="Biology : " visible="false" />
+      <Label fx:id="labels12" layoutX="46.0" layoutY="354.0" text="Computer Science : " visible="false" />
+      <Label fx:id="labels13" layoutX="46.0" layoutY="378.0" text="Agriculture : " visible="false" />
+      <Label fx:id="labels14" layoutX="48.0" layoutY="401.0" text="Home Economics : " visible="false" />
+      <Label fx:id="labels15" layoutX="48.0" layoutY="426.0" text="Statistics : " visible="false" />
+      <Label fx:id="labelc2" layoutX="168.0" layoutY="120.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc3" layoutX="161.0" layoutY="144.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc4" layoutX="168.0" layoutY="167.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc5" layoutX="144.0" layoutY="192.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc6" layoutX="120.0" layoutY="216.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc7" layoutX="120.0" layoutY="239.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc8" layoutX="176.0" layoutY="262.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc9" layoutX="144.0" layoutY="283.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc10" layoutX="137.0" layoutY="307.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc11" layoutX="107.0" layoutY="331.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc12" layoutX="161.0" layoutY="354.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc13" layoutX="129.0" layoutY="378.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc14" layoutX="154.0" layoutY="401.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Label fx:id="labelc15" layoutX="113.0" layoutY="426.0" prefHeight="17.0" prefWidth="49.0" text="Label" visible="false" />
+      <Button defaultButton="true" layoutX="233.0" layoutY="514.0" mnemonicParsing="false" onAction="#backpage" prefHeight="39.0" prefWidth="153.0" text="Back to Home ">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font></Button>
+      <Label layoutX="201.0" layoutY="32.0" text="Student No : " />
+      <Label fx:id="stno" layoutX="281.0" layoutY="32.0" text="Label" />
+     
+   </children>
+</AnchorPane>

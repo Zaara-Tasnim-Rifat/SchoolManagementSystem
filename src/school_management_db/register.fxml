@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school_management_db.RegisterController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="-1.0" opacity="0.14" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back3.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="219.0" layoutY="23.0" text="Registration Form" textFill="#bc66ff" wrapText="false">
+      <font>
+        <Font name="Bell MT" size="24.0" />
+      </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="77.0" text="Student ID : " />
+    <Label layoutX="32.0" layoutY="109.0" text="( Choose your subjects from here. Put tick in the box )">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <CheckBox fx:id="bangla1st" layoutX="44.0" layoutY="154.0" mnemonicParsing="false" text="Bengali 1st Paper" />
+    <CheckBox fx:id="bangla2nd" layoutX="44.0" layoutY="183.0" mnemonicParsing="false" text="Bengali 2nd Paper" />
+    <CheckBox fx:id="english1st" layoutX="44.0" layoutY="210.0" mnemonicParsing="false" text="English 1st Paper" />
+    <CheckBox fx:id="english2nd" layoutX="44.0" layoutY="239.0" mnemonicParsing="false" text="English 2nd Paper" />
+    <CheckBox fx:id="generalmath" layoutX="44.0" layoutY="265.0" mnemonicParsing="false" text="General Math" />
+    <CheckBox fx:id="physics" layoutX="44.0" layoutY="291.0" mnemonicParsing="false" text="Physics" />
+    <CheckBox fx:id="chemistry" layoutX="44.0" layoutY="317.0" mnemonicParsing="false" text="Chemistry" />
+    <CheckBox fx:id="religiousedu" layoutX="44.0" layoutY="347.0" mnemonicParsing="false" text="Religious Education" />
+    <CheckBox fx:id="socialscience" layoutX="44.0" layoutY="374.0" mnemonicParsing="false" text="Social Science" />
+    <CheckBox fx:id="highermath" layoutX="44.0" layoutY="403.0" mnemonicParsing="false" text="Higher Math" />
+    <CheckBox fx:id="biology" layoutX="46.0" layoutY="435.0" mnemonicParsing="false" text="Biology" />
+    <CheckBox fx:id="computerscience" layoutX="44.0" layoutY="465.0" mnemonicParsing="false" text="Computer Science" />
+    <CheckBox fx:id="agriculture" layoutX="44.0" layoutY="492.0" mnemonicParsing="false" text="Agriculture" />
+    <CheckBox fx:id="homeeconomics" layoutX="43.0" layoutY="519.0" mnemonicParsing="false" text="Home Economics" />
+    <Label layoutX="324.0" layoutY="146.0" text="4TH SUBJECT : " />
+    <Button cancelButton="false" defaultButton="true" layoutX="262.0" layoutY="541.0" mnemonicParsing="false" onAction="#subjectchoice" prefHeight="32.0" prefWidth="116.0" text="Submit">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Button>
+      <RadioButton fx:id="ophighermath" layoutX="320.0" layoutY="175.0" mnemonicParsing="false" text="Higher Math" />
+      <RadioButton fx:id="opbiology" layoutX="320.0" layoutY="202.0" mnemonicParsing="false" text="Biology" />
+      <RadioButton fx:id="opagriculture" layoutX="320.0" layoutY="257.0" mnemonicParsing="false" text="Agriculture" />
+      <RadioButton fx:id="ophomeeconomics" layoutX="320.0" layoutY="291.0" mnemonicParsing="false" text="Home Economics" />
+      <RadioButton fx:id="opstatistics" layoutX="320.0" layoutY="326.0" mnemonicParsing="false" text="Statistics" />
+      <RadioButton fx:id="opcomputerscience" layoutX="320.0" layoutY="231.0" mnemonicParsing="false" text="Computer Science" />
+      <Label layoutX="45.0" layoutY="138.0" text="MANDATORY SUBJECT : " />
+      <Label fx:id="student" layoutX="125.0" layoutY="77.0" text="Label" />
+  </children>
+</AnchorPane>

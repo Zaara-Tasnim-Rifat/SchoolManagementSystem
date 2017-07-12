@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_management_db.PayfeesController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="0.0" layoutY="0.0" opacity="0.14" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back3.jpg" />
+      </image>
+    </ImageView>
+    <TextField fx:id="baccount" layoutX="374.0" layoutY="78.0" prefHeight="25.0" prefWidth="183.0" />
+    <TextField fx:id="stid" layoutX="97.0" layoutY="78.0" prefHeight="25.0" prefWidth="105.0" />
+    <Label layoutX="269.0" layoutY="81.0" text="Bank Account No : " />
+    <Label layoutX="31.0" layoutY="82.0" text="Student ID : " />
+    <Label layoutX="31.0" layoutY="131.0" text="Admission Fee" />
+    <Label layoutX="31.0" layoutY="162.0" text="Re-admission Fee" />
+    <Label layoutX="35.0" layoutY="192.0" text="Tuition Fee" />
+    <TextField layoutX="183.0" layoutY="127.0" />
+    <TextField layoutX="183.0" layoutY="158.0" />
+    <TextField layoutX="183.0" layoutY="188.0" />
+    <TextField layoutX="183.0" layoutY="223.0" />
+    <Label layoutX="35.0" layoutY="227.0" text="Examination Fee" />
+    <TextField layoutX="183.0" layoutY="256.0" />
+    <Label layoutX="35.0" layoutY="260.0" text="Athletic Fee" />
+    <TextField layoutX="183.0" layoutY="287.0" />
+    <Label layoutX="35.0" layoutY="291.0" text="Union Fee" />
+    <TextField layoutX="183.0" layoutY="321.0" />
+    <Label layoutX="35.0" layoutY="325.0" text="Rover Scout" />
+    <TextField layoutX="183.0" layoutY="352.0" />
+    <Label layoutX="35.0" layoutY="356.0" text="Registration Fee" />
+    <TextField layoutX="183.0" layoutY="384.0" />
+    <Label layoutX="35.0" layoutY="388.0" text="Late Tuition Fee" />
+    <TextField layoutX="183.0" layoutY="415.0" />
+    <Label layoutX="35.0" layoutY="419.0" text="Miscellaneous Fee" />
+    <Line endX="100.0" layoutX="257.0" layoutY="454.0" startX="-100.0" />
+    <TextField layoutX="183.0" layoutY="472.0" />
+    <Label layoutX="35.0" layoutY="476.0" text="TOTAL" />
+    <Button fx:id="btn" defaultButton="true" layoutX="258.0" layoutY="530.0" mnemonicParsing="false" onAction="#pay" opacity="1.0" prefHeight="34.0" prefWidth="94.0" text="Pay">
+      <font>
+        <Font name="Bell MT" size="20.0" />
+      </font>
+    </Button>
+    <MenuButton fx:id="jan" layoutX="374.0" layoutY="188.0" mnemonicParsing="false" text="Select Month">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#january" text="January" fx:id="jan1" />
+        <MenuItem mnemonicParsing="false" onAction="#February" text="February" fx:id="jan2" />
+        <MenuItem mnemonicParsing="false" onAction="#March" text="March" fx:id="jan3" />
+        <MenuItem mnemonicParsing="false" onAction="#April" text="April" fx:id="jan4" />
+        <MenuItem mnemonicParsing="false" onAction="#May" text="May" fx:id="jan5" />
+        <MenuItem mnemonicParsing="false" onAction="#June" text="June" fx:id="jan6" />
+        <MenuItem mnemonicParsing="false" onAction="#July" text="July" fx:id="jan7" />
+        <MenuItem mnemonicParsing="false" onAction="#August" text="August" fx:id="jan8" />
+        <MenuItem mnemonicParsing="false" onAction="#September" text="September" fx:id="jan9" />
+        <MenuItem mnemonicParsing="false" onAction="#October" text="October" fx:id="jan10" />
+        <MenuItem mnemonicParsing="false" onAction="#November" text="November" fx:id="jan11" />
+        <MenuItem mnemonicParsing="false" onAction="#December" text="December" fx:id="jan12" />
+      </items>
+    </MenuButton>
+    <Label layoutX="245.0" layoutY="24.0" prefHeight="47.0" prefWidth="145.0" text="Pay Fee" textFill="#d299ff" textOverrun="CLIP" wrapText="true">
+      <font>
+        <Font name="Bell MT Bold" size="30.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

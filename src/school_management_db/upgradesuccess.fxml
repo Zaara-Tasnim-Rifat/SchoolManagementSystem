@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_management_db.UpgradesuccessController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="0.0" layoutY="0.0" opacity="0.32" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back4.jpg" />
+      </image>
+    </ImageView>
+    <Button defaultButton="true" layoutX="257.0" layoutY="306.0" mnemonicParsing="false" onAction="#exit" prefHeight="47.0" prefWidth="112.0" text="Exit">
+      <font>
+        <Font name="Bell MT" size="24.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button defaultButton="true" font="$x1" layoutX="192.0" layoutY="369.0" mnemonicParsing="false" onAction="#homepage" prefHeight="47.0" prefWidth="242.0" text="Go Back to Home" />
+    <Label font="$x1" layoutX="46.0" layoutY="166.0" prefWidth="546.0" text="Marks of the student have been successfully updated!!" textFill="BLACK" />
+  </children>
+</AnchorPane>

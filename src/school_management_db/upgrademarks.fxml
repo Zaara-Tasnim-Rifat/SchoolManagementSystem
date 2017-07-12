@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school_management_db.UpgrademarksController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="0.0" layoutY="0.0" opacity="0.1" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back4.jpg" />
+      </image>
+    </ImageView>
+    <CheckBox fx:id="homeeconomics" layoutX="53.0" layoutY="529.0" mnemonicParsing="false" onAction="#visible114" text="Home Economics" />
+    <CheckBox fx:id="agriculture" layoutX="54.0" layoutY="502.0" mnemonicParsing="false" onAction="#visible113" text="Agriculture" />
+    <CheckBox fx:id="computerscience" layoutX="54.0" layoutY="475.0" mnemonicParsing="false" onAction="#visible112" text="Computer Science" />
+    <CheckBox fx:id="biology" layoutX="56.0" layoutY="445.0" mnemonicParsing="false" onAction="#visible111" text="Biology" />
+    <CheckBox fx:id="highermath" layoutX="54.0" layoutY="413.0" mnemonicParsing="false" onAction="#visible110" text="Higher Math" />
+    <CheckBox fx:id="socialscience" layoutX="54.0" layoutY="384.0" mnemonicParsing="false" onAction="#visible19" text="Social Science" />
+    <CheckBox fx:id="religiousedu" layoutX="54.0" layoutY="357.0" mnemonicParsing="false" onAction="#visible18" text="Religious Education" />
+    <CheckBox fx:id="chemistry" layoutX="54.0" layoutY="327.0" mnemonicParsing="false" onAction="#visible17" text="Chemistry" />
+    <CheckBox fx:id="physics" layoutX="54.0" layoutY="301.0" mnemonicParsing="false" onAction="#visible16" text="Physics" />
+    <CheckBox fx:id="generalmath" layoutX="54.0" layoutY="275.0" mnemonicParsing="false" onAction="#visible15" text="General Math" />
+    <CheckBox fx:id="english2nd" layoutX="54.0" layoutY="249.0" mnemonicParsing="false" onAction="#visible14" text="English 2nd Paper" />
+    <CheckBox fx:id="english1st" layoutX="54.0" layoutY="220.0" mnemonicParsing="false" onAction="#visible13" text="English 1st Paper" />
+    <CheckBox fx:id="bangla2nd" layoutX="54.0" layoutY="193.0" mnemonicParsing="false" onAction="#visible12" text="Bengali 2nd Paper" />
+    <CheckBox fx:id="bangla1st" layoutX="54.0" layoutY="164.0" mnemonicParsing="false" onAction="#visible11" text="Bengali 1st Paper" />
+    <TextField fx:id="stid" layoutX="249.0" layoutY="71.0" prefHeight="25.0" prefWidth="105.0" />
+    <Label layoutX="166.0" layoutY="76.0" text="Student ID : " />
+    <CheckBox fx:id="statistics" allowIndeterminate="false" indeterminate="false" layoutX="54.0" layoutY="134.0" mnemonicParsing="false" onAction="#visible1" selected="false" text="Statistics" />
+    <TextField fx:id="stid1" layoutX="309.0" layoutY="130.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <Label layoutX="80.0" layoutY="111.0" text="Subjects" textFill="#99a9ff">
+      <font>
+        <Font name="Bell MT" size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField fx:id="stid11" layoutX="309.0" layoutY="160.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid12" layoutX="309.0" layoutY="189.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid13" layoutX="309.0" layoutY="216.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid14" layoutX="307.0" layoutY="245.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid15" layoutX="309.0" layoutY="271.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid16" layoutX="307.0" layoutY="297.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid17" layoutX="307.0" layoutY="323.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid18" layoutX="307.0" layoutY="353.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid19" layoutX="307.0" layoutY="380.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid110" layoutX="307.0" layoutY="409.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid111" layoutX="307.0" layoutY="441.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid112" layoutX="307.0" layoutY="471.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid113" layoutX="307.0" layoutY="498.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <TextField fx:id="stid114" layoutX="307.0" layoutY="525.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <Button defaultButton="true" font="$x1" layoutX="221.0" layoutY="550.0" mnemonicParsing="false" onAction="#upgradesuccess" prefHeight="22.9998779296875" text="Update" />
+    <Label font="$x1" layoutX="343.0" layoutY="111.0" text="GPA" textFill="#99c2ff" />
+    <Label layoutX="211.0" layoutY="19.0" prefHeight="47.0" prefWidth="228.0" text="Update Marks" textFill="#d299ff" textOverrun="CLIP" wrapText="true">
+      <font>
+        <Font name="Bell MT Bold" size="30.0" />
+      </font>
+    </Label>
+      <Label fx:id="label15" layoutX="332.0" layoutY="134.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label1" layoutX="332.0" layoutY="164.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label2" layoutX="332.0" layoutY="193.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label3" layoutX="332.0" layoutY="220.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label4" layoutX="332.0" layoutY="249.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label5" layoutX="332.0" layoutY="275.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label6" layoutX="332.0" layoutY="301.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label7" layoutX="332.0" layoutY="327.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label8" layoutX="332.0" layoutY="357.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label9" layoutX="332.0" layoutY="384.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label10" layoutX="332.0" layoutY="413.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label11" layoutX="332.0" layoutY="445.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label12" layoutX="332.0" layoutY="475.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label13" layoutX="332.0" layoutY="502.0" text="Not Registered" textFill="RED" visible="false" />
+      <Label fx:id="label14" layoutX="332.0" layoutY="529.0" text="Not Registered" textFill="RED" visible="false" />
+  </children>
+</AnchorPane>

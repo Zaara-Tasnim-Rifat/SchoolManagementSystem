@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_management_db.SubjectChoiceController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back3.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="48.0" layoutY="173.0" prefWidth="558.0" text="You have successfully registered for selected courses!!">
+      <font>
+        <Font name="Bell MT" size="24.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button defaultButton="true" font="$x1" layoutX="260.0" layoutY="300.0" mnemonicParsing="false" onAction="#exit" prefHeight="47.0" prefWidth="112.0" text="Exit" />
+    <Button defaultButton="true" font="$x1" layoutX="197.0" layoutY="362.0" mnemonicParsing="false" onAction="#homepage" prefHeight="47.0" prefWidth="242.0" text="Go Back to Home" />
+  </children>
+</AnchorPane>

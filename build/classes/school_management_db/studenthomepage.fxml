@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="599.0" prefWidth="617.0" visible="true" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school_management_db.StudenthomepageController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="-1.0" layoutY="29.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@frontPage.jpg" />
+      </image>
+    </ImageView>
+    <Button defaultButton="true" layoutX="243.0" layoutY="278.0" minHeight="28.0" mnemonicParsing="false" onAction="#payfees" prefHeight="33.0" prefWidth="131.0" text="Pay Fees">
+      <font>
+        <Font size="15.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button defaultButton="true" font="$x1" layoutX="240.0" layoutY="323.0" mnemonicParsing="false" onAction="#register" prefHeight="33.0" prefWidth="137.0" text="Registration" />
+  <Button defaultButton="true" font="$x1" layoutX="240.0" layoutY="373.0" mnemonicParsing="false" onAction="#logout" prefHeight="33.0" prefWidth="137.0" text="Log Out" />
+    <Label layoutX="128.0" layoutY="158.0" prefHeight="47.0" prefWidth="414.0" text="School Management System" textFill="#d299ff" textOverrun="CLIP" wrapText="true">
+      <font>
+        <Font name="Bell MT Bold" size="30.0" />
+      </font>
+    </Label>
+      <Button defaultButton="true" layoutX="242.0" layoutY="228.0" minHeight="28.0" mnemonicParsing="false" onAction="#viewresult" prefHeight="33.0" prefWidth="131.0" text="View Result">
+         <font>
+            <Font size="15.0" fx:id="x11" />
+         </font>
+      </Button>
+  </children>
+</AnchorPane>

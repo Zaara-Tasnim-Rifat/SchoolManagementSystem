@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="617.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="school_management_db.OptionForTeacherController">
+  <children>
+    <ImageView fitHeight="599.0" fitWidth="617.0" layoutX="0.0" layoutY="0.0" opacity="0.2" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@back4.jpg" />
+      </image>
+    </ImageView>
+    <Button defaultButton="true" layoutX="211.0" layoutY="265.0" mnemonicParsing="false" onAction="#updatemarks" prefHeight="37.0" prefWidth="196.0" text="Update Grade">
+      <font>
+        <Font name="Bell MT" size="24.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="sselect" defaultButton="true" font="$x1" layoutX="188.0" layoutY="327.0" mnemonicParsing="false" onAction="#sselection" prefHeight="37.0" prefWidth="241.0" text="Student Selection" />
+    <Button defaultButton="true" font="$x1" layoutX="243.0" layoutY="389.0" mnemonicParsing="false" onAction="#logout" prefHeight="35.0" prefWidth="133.0" text="Log Out" />
+    <Label layoutX="116.0" layoutY="107.0" prefHeight="47.0" prefWidth="414.0" text="School Management System" textFill="#d299ff" textOverrun="CLIP" wrapText="true">
+      <font>
+        <Font name="Bell MT Bold" size="30.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
