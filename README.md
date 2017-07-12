@@ -1,7 +1,7 @@
 # School Management System
 Level-3/Term-1 Database Term Project
 
-Course No: CSE 308
+Course No: CSE 304
 
 
 Supervisors:
